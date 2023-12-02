@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Almanda's Personal Website</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    </head>
+    <body>
+        <section class="header">
+            <video autoplay loop class="back-video" muted playsinline>
+            <source src="img and vids/_import_61c0584f427538.00205909.mp4" type="video/mp4"></video>
+            <nav>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="#hero">Home</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#contact">Contact Me</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>          
+            </nav>
+        </section>
+
+        <div class="content">
+            <small>Welcome to </small>
+            <h1>Almanda's WebbI3e</h1>
+            <small>~soon-to-be software developer~</small>
+            <br><br>
+            <a href="#portfolio">
+                <button>Projects</button>
+            </a>
+        </div>
+        
+<!------About Myself----->
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="img and vids/7300_3_10.jpg" alt="Panda sleeping">
+                    </div>
+                    <div class="about-col-2">
+                        <h2 class="sub-title">About Me</h2>
+                        <p>Hi, I'm Almanda the Panda. I'm a really awesome Panda, sleeping is my hobby. I am also a passionate gamer and an aspiring coder. 
+                            I find joy in the simple things in life and have a knack for finding comfort in the virtual world. With my love for gaming and ambition to learn coding, I'm always excited to challenge myself and expand my skill set.</p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('interests')">Interests</p>
+                            <p class="tab-links" onclick="opentab('personality')">Personality</p>
+                            <p class="tab-links" onclick="opentab('aspirations')">Future Aspirations</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="interests">
+                            <ul>
+                                <li><span>Gaming</span><br>My gaming id is MandaPanda.I love exploring fascinating virtual world, solving puzzles or embarking on thrilling adventures</li>
+                                <li><span>Avid Sleeper</span><br>Recharge my body and mind by powernapping in some cozy corner</li>
+                                <li><span>Beginner Coder</span><br>On a journey of learning coding. Similar to the logic and strategy involved in gaming, coding exercises my problem-solving skills</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="personality">
+                            <ul>
+                                <li><span>Open-minded</span><br>Love being imaginative and willingly to embrace new experiences</li>
+                                <li><span>Introvert</span><br>Enjoy spending time alone or in small group interactions</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="aspirations">
+                            <ul>
+                                <li><span>Gaming and Coding</span><br>Aspire to combine my passions for gaming and coding, dream of creating immersive learning experiences that captivate players</li>
+                            </ul>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+
+<!----My Portfolio to be filled soon-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Portfolio</h1>
+                <div class="portfolio-list">
+                    <div>
+                        <h2>Coming Soon!!</h2>
+                        <p>Coming Soon!!</p>
+                    </div>
+                    <div>
+                        <h2>Coming Soon!!</h2>
+                        <p>Coming Soon!!</p>
+                    </div>
+                    <div>
+                        <h2>Coming Soon!!</h2>
+                        <p>Coming Soon!!</p>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <div id="resume">
+            <div class="container">
+                <h1 class="sub-title">My Resume</h1>
+                <div class="tab-title">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                    <p class="tab-links" onclick="opentab('languages')">Languages</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web App Development</li>
+                        <li><span>App Development</span><br>Building Andriod/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Assembler, Actron Air</li>
+                        <li><span>2022 - 2023</span><br>Electronic/Mechanical Assembler, Harris Movement Engineering</li>
+                        <li><span>2017 - 2022</span><br>Associate Enginner, Kulicke &  Soffa Private Limited</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023 - Current</span><br>Academy Xi</li>
+                        <li><span>2016 - 2018</span><br>Technology Instutite of Pandaness</li>
+                        <li><span>2013 - 2016</span><br>Diploma in Mechanical Engineering, Singapore Polytechnic</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="languages">
+                    <ul>
+                        <li><span>English</span><br>Have been speaking this since young, main language in my family</li>
+                        <li><span>Malay</span><br>An essential language needed to learn in my hometown as it is a national language</li>
+                        <li><span>Mandarin</span><br>Mother tongue language, had to learn this</li>
+                        <li><span>Japanese</span><br>Some similarities with Mandarin, learned it to read manga and light novels</li>
+                    </ul>
+                </div>
+                <div class="cv">
+                    <a href="img and vids/Almanda's Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>You can find me on:</p>
+                        <p><i class="fa fa-paper-plane"></i>Almanda95952hotmail.com</p>
+                        <p><i class="fa fa-phone"></i>0484681161</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/almanda.sim/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/mandapandazzzz/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/almanda-sim-807bb272/"><i class="fa fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Almanda the Panda, <i class="fa fa-heart"></i>2023</p>  
+            </div>           
+        </div>
+    </body>
+
+    <!------Javascript for Toggle Menu----->
+
+    <script>
+        var navLinks = document.getElementById("navLinks")
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+</html>
